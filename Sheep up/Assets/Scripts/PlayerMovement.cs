@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
@@ -30,10 +28,10 @@ public class PlayerMovement : MonoBehaviour
 
         if (left){
             transform.DORotate(new Vector3(0f, 90f, 0f), 0f);
-            rb.DOJump(new Vector3(transform.position.x - 0.5f, transform.position.y + jumpForce, transform.position.z),0.5f, 1, jumpTime);
+            rb.DOJump(new Vector3(transform.position.x - 0.5f, transform.position.y + jumpForce, transform.position.z), 0.5f, 1, jumpTime);
         }else{
             transform.DORotate(new Vector3(0f, -180f, 0f), 0f);
-            rb.DOJump(new Vector3(transform.position.x, transform.position.y + jumpForce, transform.position.z + movemntForce),0.5f, 1, jumpTime);
+            rb.DOJump(new Vector3(transform.position.x, transform.position.y + jumpForce, transform.position.z + movemntForce), 0.5f, 1, jumpTime);
         }
     }
 }

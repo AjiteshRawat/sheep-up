@@ -1097,7 +1097,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9d2573e111cf6dc48a80504a9d8a4407, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bca6a51e5840c5b4795cf1223c276a61, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1379,7 +1379,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 1000
   m_TargetDisplay: 0
 --- !u!224 &1973241805
 RectTransform:

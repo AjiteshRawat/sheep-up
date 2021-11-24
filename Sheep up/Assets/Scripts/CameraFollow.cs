@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
@@ -21,7 +19,7 @@ public class CameraFollow : MonoBehaviour
 
     void Follow(){
         if(canFollow){
-            transform.position = Vector3.Lerp(transform.position,new Vector3(player.position.x + 10f, player.position.y + height, player.position.z - 10f),Time.deltaTime * damping);
+            transform.position = Vector3.Lerp(transform.position, new Vector3(player.position.x + 10f, player.position.y + height, player.position.z - 10f), Time.deltaTime * damping);
         }
     }
 

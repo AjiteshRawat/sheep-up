@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class GameplayManager : MonoBehaviour{
     public static GameplayManager instance;
 
